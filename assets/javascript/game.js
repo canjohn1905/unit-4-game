@@ -17,16 +17,22 @@ $(".diamond").on("click", function () {
 
     if ( targetScore === totalScore) {
         alert("WIN");
+        //Reset the game (later)
+    }
+
+    if (totalScore > targetScore) {
+        alert ("LOSE")
     }
 });
 
 
-// Your game will hide this amount until the player clicks a crystal.
+// Your game will hide this amount until the player clicks a crystal. DONE
 
-// When they do click one, update the player's score counter.
+// When they do click one, update the player's score counter. DONE
 
 
 // The player wins if their total score matches the random number from the beginning of the game.
+
 // The player loses if their score goes above the random number.
 
 // The game restarts whenever the player wins or loses.
