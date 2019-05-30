@@ -1,7 +1,7 @@
 // There will be four crystals displayed as buttons on the page.
 // The player will be shown a random number at the start of the game.
-//var targetScore = Math.floor((Math.random() * 120) + 19);
-var targetScore = 20
+var targetScore = Math.floor((Math.random() * 120) + 19);
+//var targetScore = 20
 var totalScore = 0;
 var wins=0
 var losses=0
